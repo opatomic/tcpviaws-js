@@ -1,8 +1,13 @@
 {
   "name": "tcpviaws",
-  "version": "0.1.9",
+  "version": "0.1.10",
   "description": "Simple proxy server that connects websockets to TCP",
-  "keywords": ["websocket", "tcp", "proxy", "bridge"],
+  "keywords": [
+    "websocket",
+    "tcp",
+    "proxy",
+    "bridge"
+  ],
   "homepage": "https://github.com/opatomic/tcpviaws-js",
   "license": "ISC",
   "bin": {
@@ -12,6 +17,9 @@
     "ws": "*"
   },
   "files": [
-    "README.md", "LICENSE", "package.json", "*.js"
+    "README.md",
+    "LICENSE",
+    "package.json",
+    "*.js"
   ]
 }
