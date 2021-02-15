@@ -8,11 +8,11 @@ Install:
 
 ## Node usage
 
-    tcpviaws [wshost:]wsport tcphost:tcpport
+    tcpviaws [wshost:]wsport [tcphost:]tcpport
 
-Example:
+Examples:
 
-    tcpviaws 8080 localhost:4567
+    tcpviaws 8080 4567
     tcpviaws 127.0.0.1:8080 localhost:4567
 
 
