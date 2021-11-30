@@ -1,6 +1,6 @@
 {
   "name": "tcpviaws",
-  "version": "0.1.10",
+  "version": "0.1.11",
   "description": "Simple proxy server that connects websockets to TCP",
   "keywords": [
     "websocket",
