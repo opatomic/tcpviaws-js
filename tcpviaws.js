@@ -87,6 +87,8 @@ var options = {
 var server = new libws.Server(options);
 initWsServer(server, dst[0], dst[1]);
 
-console.log("Listening for websockets at " + src[0] + ":" + src[1] + "; Sending traffic to TCP addr " + dst[0] + ":" + dst[1]);
+server.on("listening", function() {
+	console.log("Listening for websockets at " + src[0] + ":" + server.address().port + "; Sending traffic to TCP addr " + dst[0] + ":" + dst[1]);
+});
 
 
