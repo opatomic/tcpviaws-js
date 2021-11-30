@@ -63,7 +63,7 @@ function initWsServer(server, destHost, destPort) {
 }
 
 function parseHostPort(s) {
-	var idx = s.indexOf(":");
+	var idx = s.lastIndexOf(":");
 	if (idx >= 0) {
 		return [s.substring(0, idx), parseInt(s.substring(idx + 1))];
 	}
